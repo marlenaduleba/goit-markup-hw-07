@@ -15,44 +15,47 @@
     <title>Studio</title>
   </head>
   <body>
-    <header class="page-top">
+    <header class="header">
       <div class="container">
-        <div class="header-left">
-          <a class="logo-link" href="index.html"
-            >Web<span class="logo-link-dark-theme">Studio</span></a
+        <div class="header__nav-links">
+          <a class="logo" href="index.html"
+            >Web<span class="header__logo">Studio</span></a
           >
           <nav class="navigation">
-            <ul class="navigation-list">
-              <li class="navigation-list-item">
-                <a class="navigation-links" href="./index.html">Agencja </a>
+            <ul class="nav">
+              <li class="nav__item">
+                <a class="nav__link" href="./index.html"
+                  >Agencja
+                </a>
               </li>
-              <li class="navigation-list-item">
-                <a class="navigation-links active" href="./portfolio.html"
+              <li class="nav__item">
+                <a class="nav__link nav__link--active" href="./portfolio.html"
                   >Portfolio</a
                 >
               </li>
-              <li class="navigation-list-item">
-                <a class="navigation-links" href="./index.html">Kontakt</a>
+              <li class="nav__item">
+                <a class="nav__link" href="./index.html">Kontakt</a>
               </li>
             </ul>
           </nav>
         </div>
-        <div class="header-right">
+        <div class="header__contact-links">
           <a
-            class="contacts-links-top link-gap"
+            class="header__link"
             href="mailto:info@devstudio.com"
           >
-            <span class="left-icon">
-              <svg class="contacts-icon" width="16" heihgt="12">
-                <use href="./images/icons.svg#icon-envelope"></use>
-              </svg> </span
+            <span class="header__icon--left">
+              <svg class="header__icon" width="16" heihgt="12">
+                <use href="./images/icons.svg#icon-envelope"></use></svg></span
             >info@devstudio.com</a
           >
-          <a class="contacts-links-top" href="tel:+48111111111">
-            <span class="right-icon">
-              <svg class="contacts-icon" width="10" heihgt="16">
-                <use href="./images/icons.svg#icon-smartphone"></use>
-              </svg> </span
+
+          <a class="header__link" href="tel:+48111111111">
+            <span class="header__icon--right">
+              <svg class="header__icon" width="10" heihgt="16">
+                <use
+                  href="./images/icons.svg#icon-smartphone"
+                ></use></svg></span
             >+48 111 111 111</a
           >
         </div>
