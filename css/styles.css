@@ -426,13 +426,13 @@ body {
 
 /* PORTFOLIO */
 
-.filters-list {
+.filters {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.button-filter {
+.filters__button {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
@@ -447,20 +447,20 @@ body {
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filters-list-item:not(:last-child) {
+.filters__item:not(:last-child) {
   display: block;
   margin-right: 8px;
 }
 
-.button-filter:hover,
-.button-filter:focus {
+.filters__button:hover,
+.filters__button:focus {
   cursor: pointer;
   color: var(--white);
   background-color: var(--blue);
 }
 
-.button-filter:hover,
-.button-filter:focus {
+.filters__button:hover,
+.filters__button:focus {
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08),
     0 3px 1px rgba(0, 0, 0, 0.1);
 }
@@ -472,44 +472,44 @@ body {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.container .images-list {
+.container .grid {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.images-list .figure {
+.grid .figure {
   flex-basis: calc((100%-60px) / 3);
 }
 
-.images-list-item .figure {
+.grid__item .figure {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.images-list-item .figure:hover,
-.images-list-item .figure:focus {
+.grid__item .figure:hover,
+.grid__item .figure:focus {
   cursor: pointer;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0 4px 4px rgba(0, 0, 0, 0.06),
     0 1px 1px rgba(0, 0, 0, 0.12);
 }
 
-.images-list-figcaption {
+.grid__figcaption {
   padding: 20px 24px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
 }
 
-.no-overlay {
+.grid__image {
   position: relative;
   overflow: hidden;
 }
 
-.no-overlay:hover .overlay {
+.grid__image:hover .grid__overlay {
   transform: translateY(0);
 }
 
-.overlay {
+.grid__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -520,7 +520,7 @@ body {
   transition: transform 250ms ease;
 }
 
-.overlay > p {
+.grid__overlay > p {
   color: var(--white);
   padding: 49px 45px 49px 24px;
   margin: 0;
@@ -528,14 +528,14 @@ body {
   line-height: 28px;
 }
 
-.project-title {
+.grid__project-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: var(--black);
 }
 
-.project-type {
+.grid__project-type {
   font-size: 16px;
   line-height: 1.875;
 }
