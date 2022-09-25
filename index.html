@@ -358,7 +358,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer">__icon
       <div class="container">
         <div class="footer-contact">
           <a class="logo" href="index.html"
@@ -433,60 +433,60 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal-box">
         <button type="button" class="close-button" data-modal-close>
-          <svg class="close-icon">
+          <svg class="close-button__icon">
             <use href="./images/icons.svg#icon-x"></use>
           </svg>
         </button>
-        <p class="form-title">Zostaw swoje dane w formularzu poniżej</p>
+        <p class="modal-box__title">Zostaw swoje dane w formularzu poniżej</p>
         <form class="main-form">
           <div class="inputs">
-            <label class="inputs-lbl text-style"
+            <label class="inputs__label inputs__text-style"
               >Imię
-              <svg class="inputs-icon">
+              <svg class="inputs__icon">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
-              <input class="field" type="text" name="name"
+              <input class="inputs__field" type="text" name="name"
             /></label>
 
-            <label class="inputs-lbl text-style"
+            <label class="inputs__label inputs__text-style"
               >Telefon
-              <svg class="inputs-icon">
+              <svg class="inputs__icon">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
-              <input class="field" type="tel" name="phone-number"
+              <input class="inputs__field" type="tel" name="phone-number"
             /></label>
 
-            <label class="inputs-lbl text-style"
-              >Email<svg class="inputs-icon">
+            <label class="inputs__label inputs__text-style"
+              >Email<svg class="inputs__icon">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
-              <input class="field" type="email" name="email"
+              <input class="inputs__field" type="email" name="email"
             /></label>
 
-            <label class="inputs-lbl text-style">Komentarz</label>
+            <label class="inputs__label inputs__text-style">Komentarz</label>
             <textarea
-              class="field comment text-style"
-              name="comment"
+              class="inputs__field inputs__comment inputs__text-style"
+              name="inputs__comment"
               placeholder="Wprowadź tekst"
             ></textarea>
           </div>
 
           <div class="checkbox">
-            <label class="checkbox-lbl"
+            <label class="checkbox__label"
               ><input
-                class="checkbox-inp hidden"
+                class="checkbox__input hidden"
                 type="checkbox"
                 name="terms-and-policy"
               />
-              <span class="checkbox-txt"
-                >Oświadczam, iż akceptuję<a class="link-txt left" href="#"
+              <span class="checkbox__text"
+                >Oświadczam, iż akceptuję<a class="checkbox__link checkbox__link--left" href="#"
                   >Regulamin</a
-                >i<a class="link-txt right" href="#">Politykę Prywatności</a
+                >i<a class="checkbox__link checkbox__link--right" href="#">Politykę Prywatności</a
                 >.</span
               ></label
             >
           </div>
-          <div class="form-btn">
+          <div class="form-button">
             <button class="button" type="submit">Wyślij</button>
           </div>
         </form>
