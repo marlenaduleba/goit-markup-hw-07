@@ -14,8 +14,13 @@
 }
 
 .main-section__heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: 44px;
   line-height: 1.363;
   color: $white;
   margin-bottom: 30px;
+
 }
