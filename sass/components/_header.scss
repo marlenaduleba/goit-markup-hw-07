@@ -79,12 +79,12 @@
   color: $gray;
   fill: $gray;
 
- & .header__icon {
+  & .header__icon {
     width: 16px;
     height: 12px;
   }
 
-  .header__link > & {
+  .header__link>& {
     display: inline-block;
     vertical-align: middle;
   }
@@ -101,7 +101,7 @@
     height: 16px;
   }
 
-  .header__link > & {
+  .header__link>& {
     display: inline-block;
     vertical-align: middle;
   }
@@ -119,4 +119,3 @@
   color: $blue;
   gap: 50px;
 }
-
