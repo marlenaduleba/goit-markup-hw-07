@@ -366,7 +366,6 @@ p {
   background-color: rgba(47, 48, 58, 0.8);
   z-index: 1;
 }
-
 .gallery__thumb > .gallery__title {
   position: absolute;
   bottom: 0;

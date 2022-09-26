@@ -1,4 +1,4 @@
-.what-we-do-section.section{
+.what-we-do-section.section {
   padding-top: 0;
 }
 
@@ -26,9 +26,10 @@
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
   z-index: 1;
-}
 
-.gallery__thumb > .gallery__title {
-  position: absolute;
-  bottom: 0;
+  .gallery__thumb>& {
+    position: absolute;
+    bottom: 0;
+  }
+
 }
