@@ -274,26 +274,24 @@ p {
           box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.features {
+.strenghts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  gap: 30px;
+  height: 251px;
 }
 
-.features__item {
+.strenghts__item {
   display: inline-block;
   width: 270px;
   height: 101px;
 }
 
-.features__item:not(:last-of-type) {
-  margin-right: 30px;
-}
-
-.features__container {
+.strenghts__container {
   width: 270px;
   height: 120px;
   padding: 25px 100px;
@@ -301,12 +299,12 @@ p {
   margin-bottom: 30px;
 }
 
-.features__icon {
+.strenghts__icon {
   width: 70px;
   height: 70px;
 }
 
-.features__title {
+.strenghts__title {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
@@ -315,7 +313,7 @@ p {
   margin-bottom: 10px;
 }
 
-.features__description {
+.strenghts__description {
   font-size: 14px;
   line-height: 1.714;
 }
@@ -341,6 +339,10 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 50px;
+}
+
+.what-we-do-section.section {
+  padding-top: 0;
 }
 
 .gallery {
@@ -384,11 +386,11 @@ p {
   bottom: 0;
 }
 
-.employee-section {
+.team-section {
   background-color: #f5f4fa;
 }
 
-.employee {
+.team {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -398,25 +400,25 @@ p {
   gap: 30px;
 }
 
-.employee__item {
+.team__item {
   width: 270px;
   height: 428px;
   display: block;
 }
 
-.employee__figure {
+.team__figure {
   -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.14), 0 1px 3px rgba(0, 0, 0, 0.12);
           box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.14), 0 1px 3px rgba(0, 0, 0, 0.12);
 }
 
-.employee__caption {
+.team__caption {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 18px;
   background-color: #ffffff;
 }
 
-.employee__name {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
@@ -424,7 +426,7 @@ p {
   margin-bottom: 10px;
 }
 
-.employee__position {
+.team__position {
   font-size: 16px;
   line-height: 1.187;
   margin-bottom: 16px;
@@ -519,7 +521,11 @@ p {
   background-color: #2196f3;
 }
 
-.brands {
+.our-clients-section.section {
+  padding-bottom: 126px;
+}
+
+.clients {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -533,7 +539,7 @@ p {
   gap: 30px;
 }
 
-.brands__item {
+.clients__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -553,13 +559,13 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.brands__icon {
+.clients__icon {
   width: 106px;
   height: 60.04px;
 }
 
-.brands__item:hover,
-.brands__item:focus {
+.clients__item:hover,
+.clients__item:focus {
   cursor: pointer;
   border: 1px solid #2196f3;
   color: #2196f3;
