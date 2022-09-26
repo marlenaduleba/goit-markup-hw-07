@@ -3,24 +3,26 @@
   padding-top: 60px;
   padding-bottom: 60px;
   color: $white;
-}
 
-.footer .container {
-  display: flex;
+  & .container {
+      display: flex;
+  }
+ 
 }
 
 .footer-contact {
   margin-right: 70px;
-}
 
-.footer__address {
-  font-size: 14px;
-  line-height: 1.714;
-  font-style: normal;
-  color: $white;
-  display: block;
-  width: 246px;
-  height: 81px;
+  .footer__address {
+    font-size: 14px;
+    line-height: 1.714;
+    font-style: normal;
+    color: $white;
+    display: block;
+    width: 246px;
+    height: 81px;
+  }
+
 }
 
 .footer__link {
@@ -28,12 +30,13 @@
   color: $white-transparent;
   margin-bottom: 9px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer__link:hover,
-.footer__link:focus {
-  color: $blue;
-  fill: $blue;
+  &:hover,
+  &:focus {
+    color: $blue;
+    fill: $blue;
+  }
+
 }
 
 .footer-socials {
@@ -62,6 +65,14 @@
 .footer-form__row {
   display: flex;
   gap: 12px;
+
+  & .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
 }
 
 .footer-form__input {
@@ -73,28 +84,21 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   outline: none;
-}
 
-.footer-form__input::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  color: $white-transparent;
-}
+  .footer-form__input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: $white-transparent;
+  }
 
-.footer-form__row .button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
 }
 
 .button__img {
-  width: 24px;
-  height: 24px;
+  @include buttonImg (24px, 24px);
 }
 
 .button__icon {
-  width: 24px;
-  height: 24px;
+  @include buttonImg (24px, 24px);
   fill: $white;
 }
+

@@ -1,12 +1,12 @@
-img {
-  display: block;
-}
-
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #757575;
   margin: 0;
   letter-spacing: 0.03em;
+}
+
+img {
+  display: block;
 }
 
 ul {
@@ -27,7 +27,6 @@ p {
   display: inline-block;
   margin: 0 auto;
 }
-
 .main-section .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -265,9 +264,7 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.button:hover,
-.button:focus {
+.button:hover, .button:focus {
   cursor: pointer;
   background-color: #1580d7;
   -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
@@ -435,7 +432,6 @@ p {
 .figure {
   margin: 0;
 }
-
 .grid .figure {
   -ms-flex-preferred-size: calc((100% - 60px) / 3);
       flex-basis: calc((100% - 60px) / 3);
@@ -447,9 +443,7 @@ p {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.grid__item .figure:hover,
-.grid__item .figure:focus {
+.grid__item .figure:hover, .grid__item .figure:focus {
   cursor: pointer;
   -webkit-box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0 4px 4px rgba(0, 0, 0, 0.06), 0 1px 1px rgba(0, 0, 0, 0.12);
           box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0 4px 4px rgba(0, 0, 0, 0.06), 0 1px 1px rgba(0, 0, 0, 0.12);
@@ -581,6 +575,10 @@ p {
           justify-content: center;
   margin-bottom: 50px;
 }
+.filters__item:not(:last-child) {
+  display: block;
+  margin-right: 8px;
+}
 
 .filters__button {
   font-family: "Roboto";
@@ -597,21 +595,10 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.filters__item:not(:last-child) {
-  display: block;
-  margin-right: 8px;
-}
-
-.filters__button:hover,
-.filters__button:focus {
+.filters__button:hover, .filters__button:focus {
   cursor: pointer;
   color: #ffffff;
   background-color: #2196f3;
-}
-
-.filters__button:hover,
-.filters__button:focus {
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08), 0 3px 1px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08), 0 3px 1px rgba(0, 0, 0, 0.1);
 }
@@ -627,22 +614,15 @@ p {
           justify-content: space-between;
   gap: 30px;
 }
-
-.grid__figcaption {
+.grid .grid__figcaption {
   padding: 20px 24px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
 }
-
-.grid__image {
+.grid .grid__image {
   position: relative;
   overflow: hidden;
-}
-
-.grid__image:hover .grid__overlay {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
 }
 
 .grid__overlay {
@@ -659,7 +639,10 @@ p {
   transition: transform 250ms ease;
   transition: transform 250ms ease, -webkit-transform 250ms ease;
 }
-
+.grid__image:hover .grid__overlay {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
 .grid__overlay > p {
   color: #ffffff;
   padding: 49px 45px 49px 24px;
@@ -686,7 +669,6 @@ p {
   padding-bottom: 60px;
   color: #ffffff;
 }
-
 .footer .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -696,8 +678,7 @@ p {
 .footer-contact {
   margin-right: 70px;
 }
-
-.footer__address {
+.footer-contact .footer__address {
   font-size: 14px;
   line-height: 1.714;
   font-style: normal;
@@ -714,9 +695,7 @@ p {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer__link:hover,
-.footer__link:focus {
+.footer__link:hover, .footer__link:focus {
   color: #2196f3;
   fill: #2196f3;
 }
@@ -750,6 +729,18 @@ p {
   display: flex;
   gap: 12px;
 }
+.footer-form__row .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+}
 
 .footer-form__input {
   width: 358px;
@@ -762,48 +753,30 @@ p {
           box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   outline: none;
 }
-
-.footer-form__input::-webkit-input-placeholder {
+.footer-form__input .footer-form__input::-webkit-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
-
-.footer-form__input::-moz-placeholder {
+.footer-form__input .footer-form__input::-moz-placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
-
-.footer-form__input:-ms-input-placeholder {
+.footer-form__input .footer-form__input:-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
-
-.footer-form__input::-ms-input-placeholder {
+.footer-form__input .footer-form__input::-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
-
-.footer-form__input::placeholder {
+.footer-form__input .footer-form__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-form__row .button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 24px;
 }
 
 .button__img {

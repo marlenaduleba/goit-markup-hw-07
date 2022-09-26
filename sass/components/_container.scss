@@ -2,11 +2,12 @@
   width: 1200px;
   display: inline-block;
   margin: 0 auto;
-}
 
-.main-section .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  .main-section & {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
