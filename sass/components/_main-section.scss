@@ -1,17 +1,20 @@
 .main-section {
   background-color: $background-black;
+
+  & .main-section__container {
+    margin: 0 auto;
+    width: 1600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(0deg,
+        rgba(47, 48, 58, 0.4) 0%,
+        rgba(47, 48, 58, 0.4) 100%),
+      url(../images/main/image8.jpg);
+  }
+
 }
 
-.main-section .main-section__container {
-  margin: 0 auto;
-  width: 1600px;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background-image: linear-gradient(0deg,
-      rgba(47, 48, 58, 0.4) 0%,
-      rgba(47, 48, 58, 0.4) 100%),
-    url(../images/main/image8.jpg);
-}
+
 
 .main-section__heading {
   display: flex;
