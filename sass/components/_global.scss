@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: $font-primary, $font-secondary, sans-serif;
   color: $gray;
   margin: 0;
   letter-spacing: 0.03em;
@@ -21,4 +21,3 @@ h3,
 p {
   margin: 0;
 }
-

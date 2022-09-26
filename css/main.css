@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif, "Raleway", sans-serif;
   color: #757575;
   margin: 0;
   letter-spacing: 0.03em;
@@ -291,7 +291,7 @@ p {
 }
 
 .strenghts__title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -355,7 +355,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.172;
@@ -562,7 +562,7 @@ p {
 }
 
 .filters__button {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
@@ -689,7 +689,7 @@ p {
 }
 
 .footer__title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -867,7 +867,7 @@ p {
 
 .modal-box__title {
   margin-bottom: 12px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #212121;
   font-weight: 700;
   font-size: 20px;
