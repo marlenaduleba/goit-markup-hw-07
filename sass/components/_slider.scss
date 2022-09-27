@@ -1,7 +1,7 @@
-.main-section {
+.slider {
   background-color: $background-black;
 
-  & .main-section__container {
+  & .slider__container {
     margin: 0 auto;
     width: 1600px;
     padding-top: 200px;
@@ -15,8 +15,7 @@
 }
 
 
-
-.main-section__heading {
+.slider__heading {
   display: flex;
   flex-direction: column;
   justify-content: center;
