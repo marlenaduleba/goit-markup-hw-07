@@ -305,7 +305,7 @@ p {
   line-height: 1.714;
 }
 
-.block-spacing, .subpage, .clients, .team, .speciality, .strenghts {
+.subpage, .clients, .team, .speciality, .strenghts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

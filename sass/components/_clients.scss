@@ -1,5 +1,5 @@
 .clients {
-  @extend .block-spacing;
+  @extend %block-spacing;
 
   &__container {
     @extend %container;
