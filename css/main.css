@@ -22,7 +22,7 @@ p {
   margin: 0;
 }
 
-.container, .footer__container, .grid, .subpage__container, .clients__container, .team__container, .speciality__container, .strenghts__container, .slider .slider__container, .header .header__container {
+.footer__container, .grid, .subpage__container, .clients__container, .team__container, .speciality__container, .strenghts__container, .slider .slider__container, .header .header__container {
   width: 1200px;
   display: inline-block;
   margin: 0 auto;

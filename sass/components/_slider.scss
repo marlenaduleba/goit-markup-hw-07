@@ -15,7 +15,7 @@
 }
 
 .slider .slider__container {
-  @extend .container;
+  @extend %container;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -27,7 +27,7 @@ img {
   display: block;
 }
 
-.container {
+%container {
   width: 1200px;
   display: inline-block;
   margin: 0 auto;
@@ -145,7 +145,7 @@ body {
   vertical-align: middle;
 }
 
-.header .container {
+.header %container {
   padding-top: 24px;
   padding-bottom: 25px;
   display: flex;
@@ -199,7 +199,7 @@ body {
   margin-bottom: 30px;
 }
 
-.slider .container,
+.slider %container,
 .slider__heading {
   display: flex;
   flex-direction: column;
@@ -470,7 +470,7 @@ body {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.container .grid__list {
+%container .grid__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -558,7 +558,7 @@ body {
   margin-bottom: 20px;
 }
 
-.footer .container {
+.footer %container {
   display: flex;
 }
 

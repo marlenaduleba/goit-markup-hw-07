@@ -1,15 +1,15 @@
 .speciality {
   @extend .block-spacing;
 
-  &__container{
-    @extend .container;
+  &__container {
+    @extend %container;
   }
 
-    &--no-top-space {
-      padding-top: 0;
-    }
-
+  &--no-top-space {
+    padding-top: 0;
   }
+
+}
 
 .gallery {
   display: flex;

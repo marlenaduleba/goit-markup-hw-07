@@ -2,9 +2,9 @@
   background-color: $background-white;
   @extend .block-spacing;
 
-&__container{
-  @extend .container;
-}
+  &__container {
+    @extend %container;
+  }
 
 }
 

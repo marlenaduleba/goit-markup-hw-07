@@ -1,7 +1,8 @@
-.subpage{
+.subpage {
     @extend .block-spacing;
-&__container{
-    @extend .container;
-}
+
+    &__container {
+        @extend %container;
+    }
 
 }

@@ -2,7 +2,7 @@
   border-bottom: 1px solid #ececec;
 
   & .header__container {
-    @extend .container;
+    @extend %container;
     padding-top: 24px;
     padding-bottom: 25px;
     display: flex;

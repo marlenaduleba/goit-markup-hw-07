@@ -5,7 +5,7 @@
   color: $white;
 
   &__container {
-    @extend .container;
+    @extend %container;
     display: flex;
   }
 

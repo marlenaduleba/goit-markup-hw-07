@@ -1,9 +1,9 @@
-.strenghts{
+.strenghts {
   @extend .block-spacing;
 }
 
-.strenghts__container{
-  @extend .container;
+.strenghts__container {
+  @extend %container;
 }
 
 .strenghts__list {
