@@ -1,8 +1,14 @@
-.team-section {
+.team {
   background-color: $background-white;
+  @extend .block-spacing;
+
+&__container{
+  @extend .container;
 }
 
-.team {
+}
+
+.team__list {
   display: flex;
   justify-content: space-between;
   gap: 30px;

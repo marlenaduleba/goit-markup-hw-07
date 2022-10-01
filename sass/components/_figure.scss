@@ -1,7 +1,7 @@
 .figure {
   margin: 0;
 
-  .grid & {
+  .grid__list & {
     flex-basis: calc((100% - 60px) / 3);
   }
 

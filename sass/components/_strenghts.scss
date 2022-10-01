@@ -1,4 +1,12 @@
-.strenghts {
+.strenghts{
+  @extend .block-spacing;
+}
+
+.strenghts__container{
+  @extend .container;
+}
+
+.strenghts__list {
   display: flex;
   justify-content: space-between;
   gap: 30px;

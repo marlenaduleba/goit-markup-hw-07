@@ -4,13 +4,14 @@
   padding-bottom: 60px;
   color: $white;
 
-  & .container {
+  &__container {
+    @extend .container;
     display: flex;
   }
 
 }
 
-.footer-contact {
+.footer__contact {
   margin-right: 70px;
 
   .footer__address {
@@ -39,7 +40,7 @@
 
 }
 
-.footer-socials {
+.footer__socials {
   width: 206px;
   height: 80px;
   padding-top: 12px;
@@ -56,7 +57,7 @@
   text-transform: uppercase;
 }
 
-.footer-newsletter {
+.footer__newsletter {
   width: 570px;
   height: 86px;
   padding-top: 12px;

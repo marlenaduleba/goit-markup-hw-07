@@ -1,8 +1,17 @@
-.our-clients.block-spacing {
-  padding-bottom: 126px;
+.clients {
+  @extend .block-spacing;
+
+  &__container{
+    @extend .container;
+  }
+
+  &--bottom-space {
+    padding-bottom: 126px;
+  }
+
 }
 
-.clients {
+.clients__list {
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,6 +1,15 @@
-.what-we-do.block-spacing {
-  padding-top: 0;
-}
+.speciality {
+  @extend .block-spacing;
+
+  &__container{
+    @extend .container;
+  }
+
+    &--no-top-space {
+      padding-top: 0;
+    }
+
+  }
 
 .gallery {
   display: flex;

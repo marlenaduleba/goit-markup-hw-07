@@ -22,31 +22,16 @@ p {
   margin: 0;
 }
 
-.container {
+.container, .footer__container, .grid, .subpage__container, .clients__container, .team__container, .speciality__container, .strenghts__container, .slider .slider__container, .header .header__container {
   width: 1200px;
   display: inline-block;
   margin: 0 auto;
-}
-.slider .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .header {
   border-bottom: 1px solid #ececec;
 }
-.header .container {
+.header .header__container {
   padding-top: 24px;
   padding-bottom: 25px;
   display: -webkit-box;
@@ -218,6 +203,22 @@ p {
   background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%), url(../images/main/image8.jpg);
 }
 
+.slider .slider__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .slider__heading {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -260,7 +261,7 @@ p {
           box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.strenghts {
+.strenghts__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -304,7 +305,7 @@ p {
   line-height: 1.714;
 }
 
-.block-spacing {
+.block-spacing, .subpage, .clients, .team, .speciality, .strenghts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -327,7 +328,7 @@ p {
   margin-bottom: 50px;
 }
 
-.what-we-do.block-spacing {
+.speciality--no-top-space {
   padding-top: 0;
 }
 
@@ -371,11 +372,10 @@ p {
   bottom: 0;
 }
 
-.team-section {
+.team {
   background-color: #f5f4fa;
 }
-
-.team {
+.team__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -420,7 +420,7 @@ p {
 .figure {
   margin: 0;
 }
-.grid .figure {
+.grid__list .figure {
   -ms-flex-preferred-size: calc((100% - 60px) / 3);
       flex-basis: calc((100% - 60px) / 3);
 }
@@ -451,7 +451,7 @@ p {
   height: 56px;
   margin: 0 auto;
 }
-.footer-socials > .social-links {
+.footer__socials > .social-links {
   margin: 0;
   width: 206px;
   height: 44px;
@@ -498,11 +498,11 @@ p {
   background-color: #2196f3;
 }
 
-.our-clients.block-spacing {
+.clients--bottom-space {
   padding-bottom: 126px;
 }
 
-.clients {
+.clients__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -584,7 +584,7 @@ p {
           box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08), 0 3px 1px rgba(0, 0, 0, 0.1);
 }
 
-.grid {
+.grid__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -595,13 +595,13 @@ p {
           justify-content: space-between;
   gap: 30px;
 }
-.grid .grid__figcaption {
+.grid__list .grid__figcaption {
   padding: 20px 24px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
 }
-.grid .grid__image {
+.grid__list .grid__image {
   position: relative;
   overflow: hidden;
 }
@@ -650,16 +650,16 @@ p {
   padding-bottom: 60px;
   color: #ffffff;
 }
-.footer .container {
+.footer__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.footer-contact {
+.footer__contact {
   margin-right: 70px;
 }
-.footer-contact .footer__address {
+.footer__contact .footer__address {
   font-size: 14px;
   line-height: 1.714;
   font-style: normal;
@@ -681,7 +681,7 @@ p {
   fill: #2196f3;
 }
 
-.footer-socials {
+.footer__socials {
   width: 206px;
   height: 80px;
   padding-top: 12px;
@@ -698,7 +698,7 @@ p {
   text-transform: uppercase;
 }
 
-.footer-newsletter {
+.footer__newsletter {
   width: 570px;
   height: 86px;
   padding-top: 12px;
